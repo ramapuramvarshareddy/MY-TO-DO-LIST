@@ -5,10 +5,9 @@ for (var i = 0; i < myNodelist.length; i++) {
   addEditButton(myNodelist[i]);
 }
 
-// Function to add a close button to a list item
 function addCloseButton(li) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7"); // Unicode for '×'
+  var txt = document.createTextNode("\u00D7");'
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
