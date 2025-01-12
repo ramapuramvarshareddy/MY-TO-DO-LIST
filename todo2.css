@@ -1,4 +1,4 @@
-/* Include the padding and border in an element's total width and height */
+
 body{
   background-image: url(sky2.jpeg);
   background-size: cover;
@@ -9,7 +9,7 @@ body{
   box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list */
+
 ul {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ h2{
   text-align: center;
   color: blanchedalmond;
 }
-/* Style the list items */
+
 ul li {
   cursor: pointer;
   position: relative;
@@ -32,31 +32,27 @@ ul li {
   margin-left: 20px;
   margin-right: 20px;
 
-  /* make the list items unselectable */
+  
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
+
 ul li:nth-child(odd) {
   background: #f3eded;
 }
 
-/* Darker background-color on hover */
 ul li:hover {
   background: #ddd;
 }
 
-/* When clicked on, add a background color and strike out text */
 ul li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
 }
-
-/* Add a "checked" mark when clicked on */
 ul li.checked::before {
   content: '';
   position: absolute;
@@ -69,8 +65,6 @@ ul li.checked::before {
   height: 15px;
   width: 7px;
 }
-
-/* Style the close button */
 .close {
   position: absolute;
   right: 0;
@@ -83,7 +77,6 @@ ul li.checked::before {
   color: white;
 }
 
-/* Style the header */
 .header {
   /* background-color: #f44336; */
   padding: 30px 40px;
@@ -91,51 +84,35 @@ ul li.checked::before {
   text-align: center;
 }
 
-/* Clear floats after the header */
 .header:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* Style the input */
 input {
   margin: 0;
-  /* margin-top: 10px; */
+  
   margin-bottom: 20px;
-  /* border: none; */
+
   border-radius: 0;
   width: 75%;
   padding: 10px;
-  /* float: left; */
+
   font-size: 16px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Style the "Add" button */
 .buttons {
   margin-top: 20px;
   display: flex;
-  gap: 10px;                /* Space between buttons */
-  /* margin-top: 20px; */
+  gap: 10px;                
+ 
   justify-content: center;
 }
 
 .addBtn, .clearAllBtn {
-  /* padding: 10px;
-  width: 50%;
-  background: #d9d9d9;
-  color: #555;
-  /* float: left; */
-  /* text-align: center; */
-  /* font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-right: 4%;
-  border-radius: 20px;
-  flex-direction:row; */ 
   padding: 10px;
   background: #d9d9d9;
   color: #555;
