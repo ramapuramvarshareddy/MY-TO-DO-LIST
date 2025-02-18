@@ -1,7 +1,7 @@
 # MY-TO-DO-LIST ✅
 A practical and visually pleasing web app to organize your daily tasks.
 
-FEATURES:
+##FEATURES:
 Add Tasks ➕: Users can input and add new tasks.
 
 Edit Tasks ✏️: Update or modify existing tasks.
